@@ -46,7 +46,7 @@ pickle5: Save/load embeddings cache.
 
 Optional: gpt4all or ollama-client for local LLM integration.
 
-##📂 Usage
+## 📂 Usage
 
 Run the offline RAG system:
 ```bash
@@ -68,7 +68,7 @@ Downloads LLaMA 2, MPT-7B, Falcon-7B models into local_hf_models/.
 
 Models can be loaded offline into your RAG system for generating answers.
 
-##🧩 How It Works
+## 🧩 How It Works
 
 PDF Ingestion: User selects a folder of PDFs.
 
@@ -84,7 +84,7 @@ Query & Retrieve: User enters a query; system finds top matching chunks.
 
 Local LLM (optional): Retrieved chunks passed to a local model for generating human-like answers.
 
-##💡 Why This Is Cool
+## 💡 Why This Is Cool
 
 100% offline — data never leaves your laptop.
 
@@ -94,7 +94,7 @@ Flexible — add PDFs or LLMs easily.
 
 Terminal-friendly — minimal setup, no GUI required.
 
-##🚀 Next Steps
+## 🚀 Next Steps
 
 Integrate your preferred local LLM for natural language answers.
 
