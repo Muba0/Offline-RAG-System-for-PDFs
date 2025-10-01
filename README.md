@@ -25,11 +25,13 @@
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
+```
 Install dependencies:
 
-bash
-Copy code
+```bash
+
 pip install -r requirements.txt
+```
 Dependencies explained:
 
 PyPDF2: PDF reading and text extraction.
@@ -46,9 +48,10 @@ Optional: gpt4all or ollama-client for local LLM integration.
 
 📂 Usage
 Run the offline RAG system:
-bash
-Copy code
+```bash
+
 python local.py
+```
 Enter the path to your PDF folder when prompted.
 
 The system will extract, chunk, and embed your PDFs automatically.
@@ -56,9 +59,10 @@ The system will extract, chunk, and embed your PDFs automatically.
 Ask questions in the terminal and see the top retrieved chunks.
 
 Optional: Download HuggingFace models for local LLM:
-bash
-Copy code
+```bash
+
 python download_hf_models.py
+```
 Downloads LLaMA 2, MPT-7B, Falcon-7B models into local_hf_models/.
 
 Models can be loaded offline into your RAG system for generating answers.
