@@ -1,0 +1,20 @@
+# PDF processing
+PyPDF2==3.0.1
+
+# Text chunking / LangChain
+langchain==0.1.0
+
+# Embeddings / Transformers / Torch
+sentence-transformers==2.2.2
+torch==2.1.0+cpu      # CPU-only, remove +cpu if you want GPU
+transformers==4.35.0
+
+# Vector database
+chromadb==0.4.2
+
+# Utilities
+pickle5==0.0.12
+
+# Optional local LLM integration (uncomment if using)
+# gpt4all==1.0.0
+# ollama-client==0.1.0
